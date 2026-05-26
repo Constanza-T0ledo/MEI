@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Homenaje a Liszt</title>
+         </titleStmt>
+         <pubStmt/>
+      </fileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application enddate="2026-05-24T19:04:24" startdate="2026-05-04T19:12:37" version="1.2.9">
+               <name>mei-friend</name>
+               <p>First edit by mei-friend 1.2.9.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+  <music>
+    <body>
+      <mdiv>
+        <score>
+          <scoreDef meter.count="4" meter.unit="4">
+            <staffGrp>
+          <staffDef clef.line="2" clef.shape="G" lines="5" n="1"/>
+          <staffDef clef.line="2" clef.shape="G" lines="5" n="2"/>
+        </staffGrp>
+          </scoreDef>
+          <section>
+             <measure n="1">
+                <!-- Code that didn't work: <pedal dir="down" tstamp="1" place="below"/> -->
+                  <staff n="1">
+                   <layer n="1">
+                      <beam>
+                         <note dur="16" layer="2" oct="6" pname="c" stem.dir="down"/>
+                         <note accid="s" dur="16" oct="5" pname="c" staff="2" stem.dir="up"/>
+                         <note dur="16" oct="5" pname="e" staff="2" stem.dir="up"/>
+                      </beam>
+                         <beam>
+                      	<note accid="f" dur="16" oct="5" pname="e" staff="2" stem.dir="up"/>
+                        <note dur="16" oct="5" pname="d" staff="2" stem.dir="up"/>
+                        <note accid="f" dur="16" oct="5" pname="b" stem.dir="down"/>
+                        <note accid="f" dur="16" oct="5" pname="a" staff="1" stem.dir="down"/>
+                      </beam>
+                      <beam>
+                        <note dur="16" oct="5" pname="f" staff="2" stem.dir="up"/>
+                        <note dur="16" oct="5" pname="g" stem.dir="down"/>
+                        <note dur="16" oct="5" pname="b" stem.dir="down"/>
+                        <note accid="s" dur="16" oct="5" pname="f" stem.dir="down"/>
+                      </beam>
+                      </layer>
+                </staff>
+               	<staff n="2">
+                  	<layer n="1">
+                			</layer>
+                </staff>
+             </measure>
+             <measure n="2">
+             <staff n="1">
+              <layer n="2">
+                <beam>
+                   <note accid="s" dur="16" oct="5" pname="c" staff="1" stem.dir="down"/>
+                   <note dur="16" oct="5" pname="f" staff="1" stem.dir="down"/>
+                   <note dur="16" oct="4" pname="g" staff="2" stem.dir="up"/>
+                   <note dur="16" oct="4" pname="e" staff="1" stem.dir="down"/>
+                   </beam>
+                 <beam>
+                 <note dur="16" oct="5" pname="d" staff="1" stem.dir="down"/>
+                 <note dur="16" oct="5" pname="c" staff="2" stem.dir="up"/>
+                 <note accid="f" dur="16" oct="4" pname="b" staff="2" stem.dir="up"/>
+                 <note dur="16" oct="4" pname="a" staff="2" stem.dir="up"/>
+                 </beam>
+                 <beam>
+                 <note accid="s" dur="16" oct="5" pname="d" staff="1" stem.dir="down"/>
+                 <note accid="s" dur="16" oct="4" pname="g" staff="2" stem.dir="up"/>
+                 <note dur="16" oct="4" pname="b" staff="2" stem.dir="up"/>
+                 <note dur="16" oct="5" pname="c" staff="1" stem.dir="down"/>
+                 </beam>
+                 <clef line="2" shape="G" staff="1"/>
+                 <clef line="2" shape="G" staff="2"/>
+                <beam>
+                 <note dur="16" oct="5" pname="b" staff="1" stem.dir="down"/>
+                 <note accid="s" dur="16" oct="5" pname="g" stem.dir="down"/>
+                 <note accid="s" dur="16" oct="5" pname="d" staff="2" stem.dir="up"/>
+                 <note dur="16" oct="5" pname="a" staff="1" stem.dir="down"/>
+                </beam>
+                </layer>
+             </staff>
+                   <staff n="2">
+                   <layer n="1">
+                   </layer>
+                </staff>
+             </measure>
+             <measure n="3">
+             <staff n="1">
+                <layer n="2">
+                   <beam>
+                   <note accid="f" dur="16" oct="5" pname="b" staff="1" stem.dir="down"/>
+                   <note dur="16" oct="5" pname="d" staff="2" stem.dir="up"/>
+                   <note dur="16" oct="5" pname="e" staff="2" stem.dir="up"/> 
+                   <note dur="16" oct="5" pname="g" staff="1" stem.dir="down"/>   
+                   </beam>
+                   <beam>
+                   <note dur="16" oct="5" pname="f" staff="2" stem.dir="up"/>
+                   <note accid="f" dur="16" oct="5" pname="d" staff="2" stem.dir="up"/>
+                   <note accid="f" dur="16" oct="5" pname="g" staff="1" stem.dir="down"/>
+                   <note dur="16" oct="4" pname="b" staff="2" stem.dir="up"/>
+                   </beam>
+                   <beam>
+                   <note dur="16" oct="4" pname="g" staff="2" stem.dir="up"/>
+                   <note dur="16" oct="5" pname="f" staff="1" stem.dir="down"/>
+                   <note accid="s" dur="16" oct="4" pname="g" staff="2" stem.dir="up"/>
+                   <note accid="s" dur="16" oct="4" pname="a" staff="2" stem.dir="up"/>
+                   </beam>
+                   <beam>
+                   <note dur="16" oct="5" pname="d" staff="1" stem.dir="down"/>
+                   <note accid="f" dur="16" oct="5" pname="e" staff="1" stem.dir="down"/>
+                   <note dur="16" oct="4" pname="a" staff="2" stem.dir="up"/>
+                   <note dur="16" oct="5" pname="e" staff="1" stem.dir="down"/>   
+                   </beam>
+               </layer>
+                </staff>
+                 <staff n="2">
+                    <layer n="3">
+                    </layer>
+                   </staff>
+             </measure>
+             <measure n="4">
+                <staff n="1"> 
+                   <layer>
+						<beam>
+                   <note accid="f" dur="16" oct="5" pname="d" staff="1" stem.dir="down"/>
+                   <note dur="16" oct="5" pname="c" staff="1" stem.dir="down"/>
+                   <note dur="16" oct="4" pname="g" staff="1" stem.dir="up"/>
+                   <note dur="16" oct="4" pname="e" staff="2" stem.dir="up"/>
+                   </beam>
+                 <clef line="2" shape="G" staff="1"/>
+                 <clef line="2" shape="G" staff="2"/>    
+                 <beam>
+                 <note dur="16" accid="s" oct="5" pname="d" staff="2" stem.dir="down"/>
+                 <note dur="16" oct="5" pname="a" staff="1" stem.dir="up"/>
+                 <note dur="16" oct="5" pname="d" staff="2" stem.dir="up"/>
+                 <note dur="16" accid="s" oct="5" pname="a" staff="1" stem.dir="down"/>
+                 </beam>
+         <beam>
+           <note accid="s" dur="16" oct="5" pname="g" staff="1" stem.dir="down"/>
+           <note dur="16" oct="5" pname="b" staff="1" stem.dir="down"/>
+           <note accid="s" dur="16" oct="5" pname="c" staff="2" stem.dir="up"/>
+           <note dur="16" oct="5" pname="f" staff="2" stem.dir="up"/>
+         </beam>
+         <beam>
+           <note accid="s" dur="16" oct="5" pname="g" staff="1" stem.dir="down"/>
+           <note dur="16" oct="5" pname="b" staff="1" stem.dir="down"/>
+           <note accid="s" dur="16" oct="5" pname="c" staff="2" stem.dir="up"/>
+           <note dur="16" oct="5" pname="f" staff="2" stem.dir="up"/>
+         </beam>
+           </layer>
+					</staff>
+                <staff n="2">
+                   <layer n="3">
+                   </layer>
+                </staff>
+             </measure>
+          </section>
+         <section>
+            <!-- I don't know how to start another system -->
+  <measure n="5">
+    <staff n="1">
+      <layer n="1">
+                <beam>
+           <note accid="s" dur="16" oct="5" pname="f" staff="1" stem.dir="down"/>
+           <note dur="16" oct="4" pname="g" staff="2" stem.dir="up"/>
+           <note dur="16" oct="4" pname="b" staff="2" stem.dir="up"/>
+           <note accid="s" dur="16" oct="5" pname="c" staff="1" stem.dir="up"/>
+         </beam>
+      </layer>
+    </staff>
+    <staff n="2">
+      <layer n="1">
+        <!-- notas -->
+      </layer>
+    </staff>
+  </measure>
+   <measure n="6">
+    <staff n="1">
+      <layer n="1">
+        <beam>
+           <note dur="16" oct="5" pname="e" staff="1" stem.dir="down"/>
+           <note dur="16" oct="5" pname="d" staff="1" stem.dir="down"/>
+           <note accid="f" dur="16" oct="4" pname="b" staff="2" stem.dir="up"/>
+           <note accid="f" dur="16" oct="5" pname="e" staff="1" stem.dir="up"/>
+         </beam>
+         <beam>
+           <note dur="16" oct="4" pname="a" staff="2" stem.dir="up"/>
+           <note accid="f" dur="16" oct="4" pname="b" staff="2" stem.dir="up"/>
+           <note dur="16" oct="5" pname="f" staff="1" stem.dir="up"/>
+           <note dur="16" oct="5" pname="c" staff="1" stem.dir="up"/>
+         </beam>
+         <beam>
+           <note accid="s" dur="16" oct="4" pname="c" staff="2" stem.dir="up"/>
+           <note dur="16" oct="4" pname="b" staff="1" stem.dir="down"/>
+           <note accid="s" dur="16" oct="4" pname="a" staff="1" stem.dir="down"/>
+           <note dur="16" oct="4" pname="g" staff="1" stem.dir="down"/>
+         </beam>
+           <beam>
+           <note accid="s" dur="16" oct="4" pname="d" staff="2" stem.dir="up"/>
+           <note accid="s" dur="16" oct="4" pname="g" staff="1" stem.dir="down"/>
+           <note dur="16" oct="4" pname="d" staff="2" stem.dir="down"/>
+           <note dur="16" oct="4" pname="f" staff="2" stem.dir="down"/>
+         </beam>
+      </layer>
+    </staff>
+    <staff n="2">
+      <layer n="1">
+      </layer>
+    </staff>
+  </measure>
+           </section>
+           <section>
+     <measure n="7">
+    <staff n="1">
+      <layer n="1">
+        <beam>
+           <note dur="16" oct="5" pname="e" staff="1" stem.dir="down"/>
+           <note dur="16" oct="5" pname="d" staff="1" stem.dir="down"/>
+           <note accid="f" dur="16" oct="4" pname="b" staff="2" stem.dir="up"/>
+           <note accid="f" dur="16" oct="5" pname="e" staff="1" stem.dir="up"/>
+         </beam>
+         <beam>
+           <note dur="16" oct="4" pname="a" staff="2" stem.dir="up"/>
+           <note accid="f" dur="16" oct="4" pname="b" staff="2" stem.dir="up"/>
+           <note dur="16" oct="5" pname="f" staff="1" stem.dir="up"/>
+           <note dur="16" oct="5" pname="c" staff="1" stem.dir="up"/>
+         </beam>
+         <beam>
+           <note accid="s" dur="16" oct="4" pname="c" staff="2" stem.dir="up"/>
+           <note dur="16" oct="4" pname="b" staff="1" stem.dir="down"/>
+           <note accid="s" dur="16" oct="4" pname="a" staff="1" stem.dir="down"/>
+           <note dur="16" oct="4" pname="g" staff="1" stem.dir="down"/>
+         </beam>
+           <beam>
+           <note accid="s" dur="16" oct="4" pname="d" staff="2" stem.dir="up"/>
+           <note accid="s" dur="16" oct="4" pname="g" staff="1" stem.dir="down"/>
+           <note dur="16" oct="4" pname="d" staff="2" stem.dir="down"/>
+           <note dur="16" oct="4" pname="f" staff="2" stem.dir="down"/>
+         </beam>
+      </layer>
+    </staff>
+    <staff n="2">
+      <layer n="1">
+        <!-- notas -->
+      </layer>
+    </staff>
+  </measure>
+  <measure n="8">
+    <staff n="1">
+      <layer n="1">
+        <beam>
+           <note dur="16" oct="4" pname="a" staff="1" stem.dir="down"/>
+           <note dur="16" oct="4" pname="e" staff="2" stem.dir="up"/>
+           <note accid="s" dur="16" oct="4" pname="f" staff="1" stem.dir="down"/>
+           <note accid="f" dur="16" oct="4" pname="b" staff="2" stem.dir="up"/>
+                      <clef line="4" shape="F" staff="2"/> 
+           <note accid="s" dur="16" oct="3" pname="g" staff="2" stem.dir="up"/>
+         </beam>
+         <beam>
+             <clef line="4" shape="F" staff="1"/> 
+           <note accid="s" dur="16" oct="4" pname="d" staff="1" stem.dir="down"/>
+            <clef line="4" shape="F" staff="2"/> 
+           <note accid="s" dur="16" oct="3" pname="g" staff="2" stem.dir="up"/>
+           <note accid="f" dur="16" oct="3" pname="b" staff="2" stem.dir="up"/>
+           <note dur="16" oct="4" pname="e" staff="1" stem.dir="down"/>
+         </beam>
+         <beam>
+           <note accid="s" dur="16" oct="3" pname="a" staff="2" stem.dir="up"/>
+           <note dur="16" oct="4" pname="f" staff="1" stem.dir="down"/>
+           <note dur="16" oct="4" pname="d" staff="1" stem.dir="down"/>
+           <note accid="s" dur="16" oct="4" pname="c" staff="1" stem.dir="down"/>
+         </beam>
+           <beam>
+           <note dur="16" oct="3" pname="b" staff="2" stem.dir="up"/>
+           <note dur="16" oct="4" pname="c" staff="1" stem.dir="down"/>
+           <note dur="16" oct="3" pname="f" staff="2" stem.dir="up"/>
+           <note dur="16" oct="3" pname="g" staff="1" stem.dir="down"/>
+         </beam>
+      </layer>
+    </staff>
+    <staff n="2">
+      <layer n="1">
+        <!-- notas -->
+      </layer>
+    </staff>
+  </measure>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>
